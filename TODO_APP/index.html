@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="hima.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+</head>
+<body> 
+    <header>
+        <h1>Tasks</h1>
+        <form id="formm">
+        <input id="task_in" type="text" placeholder="What the Tasks"/>
+        <input type="submit" id="submit" value="Add task"/>
+    </form>
+    </header>
+    <main>
+        <section class="list">
+            <h2>Tasks List</h2>
+            <div id="tasks">
+                <div class="task">
+                <div class="content">
+                    <input type="text" class="text" value="My task" readonly/>
+                </div>
+                <div class="actions">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </div>
+            </div>
+            </div>
+        </section> 
+    </main>
+    <script src="hima.js"></script>
+</body>
+</html>
